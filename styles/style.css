@@ -1,0 +1,164 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(22, 1, 41);
+}
+
+/* header y navbar*/
+
+.header-container {
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.header-h2 {
+  color: white;
+  padding: 0 3rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-container {
+  position: absolute;
+  right: 0;
+  padding: 0 3rem;
+}
+
+.nav-container a {
+  color: white;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.container-left .logo {
+  width: 20vw;
+  border-radius: 50%;
+}
+
+.container-right .name-home {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+}
+
+.name-home,
+.name,
+p,
+.email,
+.movil {
+  color: white;
+  padding: 0 3rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.estudios {
+  margin-top: 10rem;
+  width: 100%;
+  border: 1px solid white;
+  left: 0;
+  position: absolute;
+}
+.estudios p {
+  font-size: 2rem;
+}
+
+.estudios .icon-estudios {
+  background-color: red;
+  color: white;
+}
+
+.grid-container {
+  margin-top: 30rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.biografia {
+  margin-top: 15rem;
+  border: 1px solid white;
+}
+.biografia .biografia-p {
+  font-size: 1.5rem;
+}
+
+.otros {
+  margin-top: 15rem;
+  border: 1px solid white;
+}
+.otros p {
+  font-size: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 15rem;
+}
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-footer {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+}
+
+.footer-left a {
+  position: relative;
+  padding: 0 3rem;
+}
+
+.footer-left, .icon{
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.footer-right {
+  display: flex;
+
+  padding-left: 40rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.icon-arrow{
+  position: absolute;
+ z-index: 100;
+ margin-left: 40rem;
+ cursor: pointer;
+}
+
+/*menu-response*/
+.menu .icon-menu {
+  background-color: white;
+  display: none;
+}
